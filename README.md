@@ -8,8 +8,13 @@ All the commands and permissions are listed below. Anywhere where `/bbt` is used
 
 | Command | Permission | Description |
 |---------|------------|-------------|
+| `/bbt` | `bossbartimer.usage` | The main plugin command, brings up a nice little summary. All other sub commands require this permission to be used. |
+| `/bbt help` | `bossbartimer.usage` | The help command for this plugin, shows a nice description of each command. |
 | `/bbt begin <duration> <name> <color> <text>` | `bossbartimer.begin` | Begins a boss bar timer with a duration formatted in `<weeks>w<days>d<hours>h<minutes>m<seconds>s`. All of the measurements are optional but there must be at least one present. Name must be an alphanumeric name. Color can be blue, green, pink, purple, red, white, or yellow. Text refers to the actual text of the boss bar. You can format this using any of the time indicators placed in the duration which will be replaced. An example would be `/bbt begin 3600 expboost blue &6&l2&x &c&lExp Boost! &6&l<minutes> &c&lminutes and &6&l<seconds> &c&lseconds left!`. Boss bars are persistent throughout restarts and are not lag dependent. |
 | `/bbt end <name>` | `bossbartimer.end` | Ends the boss bar named `<name>` |
+
+## Config
+
 
 ## License
 ```

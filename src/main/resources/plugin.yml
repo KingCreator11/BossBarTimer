@@ -1,0 +1,29 @@
+main: com.kingcreator11.bossbartimer.BossBarTimer
+name: BossBarTimer
+version: 1.0
+api-version: 1.16
+description: A simple plugin for allowing the creation of boss bars which have timers/countdowns.
+prefix: BossBarTimer
+commands:
+  bossbartimer:
+    description: The main boss bar timer command.
+    usage: /<command>
+    permission: bossbartimer.usage
+  bbt:
+    description: The main boss bar timer command.
+    usage: /<command>
+    permission: bossbartimer.usage
+permissions:
+  bossbartimer.*:
+    description: Allows access to everything within the plugin
+    default: op
+    children:
+      bossbartimer.usage:
+        description: Required to use the base bossbartimer command.
+        default: true
+      staffstorage.begin:
+        description: Allows for creating new boss bars
+        default: op
+      staffstorage.end:
+        description: Allows for ending boss bars
+        default: op
