@@ -14,7 +14,7 @@ All the commands and permissions are listed below. Anywhere where `/bbt` is used
 | `/bbt end <name>` | `bossbartimer.end` | Ends the boss bar named `<name>` |
 
 ## Config
-
+Messages can be configured in `messages.yml`. Boss bars are stored in `bossbars.yml` but messing with this file can cause errors so I don't recommend it.
 
 ## License
 ```
