@@ -21,9 +21,9 @@ permissions:
       bossbartimer.usage:
         description: Required to use the base bossbartimer command.
         default: true
-      staffstorage.begin:
+      bossbartimer.begin:
         description: Allows for creating new boss bars
         default: op
-      staffstorage.end:
+      bossbartimer.end:
         description: Allows for ending boss bars
         default: op

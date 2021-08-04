@@ -6,3 +6,55 @@
 
 # --------------------------------------------- General ---------------------------------------------
 
+# This message is used when a player uses `/bbt` with an invalid first argument
+commandNotFound: §4Command not found - use /bbt help for a list of commands
+
+# This message is displayed when a player attempts to use `/bbt` with a command which they do not have permissions to
+insufficientPrivileges: §4Insufficient Privileges
+
+# This message is used when a player uses a command which causes an exception
+# Whenever this message is displayed, the stack trace is also printed to the console [please inform the devs regarding this]
+unknownCommandError: §4Whoops something went wrong! Try a different command and please inform the developers regarding the console output!
+
+# --------------------------------------------- Help Command ---------------------------------------------
+
+# The header of the help command
+helpHeader: §6>------ §cBoss Bar Timer Help §6------<
+
+# The footer of the help command
+# <page> is the currently shown page number and <max> is the maximum page number
+helpFooter: §6>------ §cPage <page> of <max> §6------<
+
+# The template used for displaying help regarding a command
+helpTemplate: "§6/bbt <usage> §7: §f<description>"
+
+# Displayed for the <usage> variable in the help template for the Help command
+helpHelpUsage: help §c<page>
+# Displayed for the <description> variable in the help template for the Help command
+helpHelpDescription: Pulls up this help page
+
+# Displayed for the <usage> variable in the help template for the Begin command
+helpBeginUsage: begin §c<duration> <name> <color> <text>
+# Displayed for the <description> variable in the help template for the Begin command
+helpBeginDescription: Begins a boss bar timer with a duration formatted in <weeks>w<days>d<hours>h<mins>m<secs>s. All measurements are optional but there must be at least one present. Name must be an alphanumeric name. Text refers to the actual text of the boss bar. You can format this using any of the time indicators placed in the duration which will be replaced.
+
+# Displayed for the <usage> variable in the help template for the End command
+helpEndUsage: end §c<name>
+# Displayed for the <description> variable in the help template for the End command
+helpEndDescription: Ends the boss bar named <name>
+
+# --------------------------------------------- Begin Command ---------------------------------------------
+
+# Displayed when /bbt begin is used with invalid arguments
+beginInvalidArgument: §cInvalid argument(s) - please refer to /bbt help
+
+# Displayed when a boss bar is successfully begun
+beginSuccess: §2Boss Bar Successfully Begun!
+
+# --------------------------------------------- End Command ---------------------------------------------
+
+# Displayed when /bbt end is used with an invalid argument
+endInvalidArgument: §cInvalid argument - please refer to /bbt help
+
+# Displayed when a boss bar is successfully ended
+endSuccess: §2Boss Bar Successfully Ended!
